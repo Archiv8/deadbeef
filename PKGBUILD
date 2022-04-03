@@ -5,17 +5,13 @@
 # repository root directory, see https://github.com/koalaman/shellcheck/wiki
 # and https://archiv8.github.io for further information.
 # shellcheck disable=SC2034,SC2154
-# ToDo: Add files: User documentation
-# ToDo: Add files: Tooling
-# FixMe: Namcap warnings and errors
-# FixMe: Build Failure
+# [ToDo]: Add files: User documentation
+# [ToDo]: Add files: Tooling
+# [FixMe]: Namcap warnings and errors
+# [FixMe]: Build Failure
 
-# Maintainer: Fabio "Lolix" Loli <fabio.loli@disroot.org> -> https://github.com/FabioLolix
-# Contributor: Lukas Fleischer <lfleischer@archlinux.org>
-# Contributor: Alexey Yakovenko <waker@users.sourceforge.net>
-# Contributor: Ross Clark <contact@artisteducator.com>
-
-
+# Maintainer: Ross Clark <archiv8@artisteducator.com>
+# Contributor: Ross Clark <archiv8@artisteducator.com>
 
 pkgname=deadbeef
 pkgver=1.8.8
