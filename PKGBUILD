@@ -17,7 +17,7 @@
 
 pkgname=deadbeef
 pkgver=1.9.2
-pkgrel=2
+pkgrel=3
 pkgdesc="Modular GTK audio player for GNU/Linux"
 arch=(x86_64 i686 pentium4 arm armv6h armv7h aarch64)
 url="https://deadbeef.sourceforge.io/"
@@ -60,7 +60,6 @@ makedepends=(
 
 )
 optdepends=(
-
   # Official Arch Linux repositories
   "alsa-oss: for OSS output plugin"
   "cdparanoia: for cd audio plugin"
