@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# Created from the original package by Fabio 'Lolix' Loli <fabio.loli@disroot.org> -> https://github.com/FabioLolix, Lukas Fleischer <lfleischer@archlinux.org> and Alexey Yakovenko <waker@users.sourceforge.net>
+# Created from original package by Fabio 'Lolix' Loli <fabio.loli@disroot.org> -> https://github.com/FabioLolix, Lukas Fleischer <lfleischer@archlinux.org> and Alexey Yakovenko <waker@users.sourceforge.net>
 
 # Disable various shellcheck rules that produce false positives in this file.
-# Repository rules should be added to the .shellcheckrc file located in the
+# Repository rules should be added to.shellcheckrc file located in
 # repository root directory, see https://github.com/koalaman/shellcheck/wiki
 # and https://archiv8.github.io for further information.
 # shellcheck disable=SC2034,SC2154
 # [ToDo]: Add files: User documentation
 # [ToDo]: Add files: Tooling
 # [FixMe]: Namcap warnings and errors
-# [FixMe]: Build Failure
+# [Fixed]: Build Failure
 
 # Maintainer: Ross Clark <archiv8@artisteducator.com>
 # Contributor: Ross Clark <archiv8@artisteducator.com>
@@ -29,32 +29,30 @@ license=(
 depends=(
   # Official Arch Linux repositories
   "alsa-lib"
-  "jansson"
+  "ffmpeg4.4"
+  "flac"
   "gtk3"
   "jansson"
   "libcddb"
+  "libcdio"
   "libdispatch"
+  "libmad"
+  "libsamplerate"
+  "libvorbis"
+  "libzip"
+  "mpg123"
   "opusfile"
 )
 makedepends=(
-
   # Official Arch Linux repositories
   "clang"
   "curl"
   "faad2"
-  "ffmpeg4.4"
-  "flac"
   "imlib2"
   "intltool"
-  "libcdio"
-  "libmad"
   "libpulse"
-  "libsamplerate"
   "libsndfile"
-  "libvorbis"
   "libx11"
-  "libzip"
-  "mpg123"
   "pkgconfig"
   "wavpack"
   "yasm"
