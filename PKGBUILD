@@ -16,8 +16,8 @@
 # Contributor: Ross Clark <archiv8@artisteducator.com>
 
 pkgname=deadbeef
-pkgver=1.9.1
-pkgrel=1
+pkgver=1.9.2
+pkgrel=2
 pkgdesc="Modular GTK audio player for GNU/Linux"
 arch=(x86_64 i686 pentium4 arm armv6h armv7h aarch64)
 url="https://deadbeef.sourceforge.io/"
@@ -29,35 +29,37 @@ license=(
 depends=(
   # Official Arch Linux repositories
   "alsa-lib"
-  "faad2"
-  "ffmpeg4.4"
+  "jansson"
   "gtk3"
   "jansson"
   "libcddb"
-  "libcdio"
   "libdispatch"
-  "libmad"
-  "mpg123"
-  "libvorbis"
-  "libzip"
   "opusfile"
-  "wavpack"
 )
 makedepends=(
 
   # Official Arch Linux repositories
   "clang"
   "curl"
+  "faad2"
+  "ffmpeg4.4"
   "flac"
   "imlib2"
   "intltool"
+  "libcdio"
+  "libmad"
   "libpulse"
   "libsamplerate"
   "libsndfile"
+  "libvorbis"
   "libx11"
+  "libzip"
+  "mpg123"
   "pkgconfig"
+  "wavpack"
   "yasm"
   "zlib"
+
 )
 optdepends=(
 
@@ -75,7 +77,7 @@ source=(
   "https://sourceforge.net/projects/deadbeef/files/travis/linux/${pkgver}/deadbeef-${pkgver}.tar.bz2"
 )
 sha512sums=(
-  "2f959fb139078bbde3c1183019545ed3979b3c5dfc051794ea7a5ccf166156acc8d5dface3169ec705059f487d47c9b314c5400770a7572c22fbd0b903eefc5a"
+  "fa4298fb3a89b3891c2f0403b2c66e20f64206101ad44f53be5208a69b33d3de3e0ced329cf090c17a1a3c4f7b28920baf5f8c964df2b6bdea6095465d0a02d9"
 )
 
 export PKG_CONFIG_PATH='/usr/lib/ffmpeg4.4/pkgconfig'
