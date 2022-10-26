@@ -9,7 +9,9 @@
 # shellcheck disable=SC2034,SC2154
 # [ToDo]: Add files: User documentation
 # [ToDo]: Add files: Tooling
-# [FixMe]: Namcap warnings and errors
+# [FixMe]: Namcap warnings and errors:
+#            See https://github.com/Archiv8/deadbeef/TODO.md for further
+#            information
 # [Fixed]: Build Failure
 
 # Maintainer: Ross Clark <archiv8@artisteducator.com>
@@ -17,9 +19,15 @@
 
 pkgname=deadbeef
 pkgver=1.9.2
-pkgrel=3
+pkgrel=4
 pkgdesc="Modular GTK audio player for GNU/Linux"
-arch=(x86_64 i686 pentium4 arm armv6h armv7h aarch64)
+arch=("x86_64"
+  "i686"
+  "pentium4"
+  "arm"
+  "armv6h"
+  "armv7h"
+  "aarch64")
 url="https://deadbeef.sourceforge.io/"
 license=(
   "GPL2"
