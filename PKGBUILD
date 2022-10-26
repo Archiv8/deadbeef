@@ -29,6 +29,7 @@ license=(
 depends=(
   # Official Arch Linux repositories
   "alsa-lib"
+  "faad2"
   "ffmpeg4.4"
   "flac"
   "gtk3"
@@ -42,22 +43,20 @@ depends=(
   "libzip"
   "mpg123"
   "opusfile"
+  "wavpack"
 )
 makedepends=(
   # Official Arch Linux repositories
   "clang"
   "curl"
-  "faad2"
   "imlib2"
   "intltool"
   "libpulse"
   "libsndfile"
   "libx11"
   "pkgconfig"
-  "wavpack"
   "yasm"
   "zlib"
-
 )
 optdepends=(
   # Official Arch Linux repositories
